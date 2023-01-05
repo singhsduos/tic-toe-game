@@ -1,11 +1,11 @@
 import React from "react";
 import "./squareComponent.css"
 
-const SquareComponent = () => {
+const SquareComponent = (props) => {
   return (
-      <div className="square__container">
-      <span>X</span>
-      </div>
+    <div className="square__container" onClick={props.onClick}>
+      <span>{props.val}</span>
+    </div>
   );
 };
 
