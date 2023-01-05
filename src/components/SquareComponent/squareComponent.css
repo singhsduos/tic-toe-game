@@ -1,12 +1,12 @@
 .square__container {
-  border: 1px solid grey;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  border: 1px solid grey;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
 }
 
-.square__container span{
-    font-size: 3rem;
+.square__container span {
+  font-size: 3rem;
 }
